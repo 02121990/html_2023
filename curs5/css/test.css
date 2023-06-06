@@ -1,0 +1,18 @@
+div{
+    height: 300px;/*inaltime*/
+    width: 300px;/*latime*/
+    margin: 15px;/*margine*/
+    border: 2px solid red;
+    border-radius: 15px;/*colturile la border sa fie rotunjite*/
+    float: left;/*border-ul sa fie unul langa altul*/
+    overflow: hidden;/*sa ascunda continutul daca am paragrafe mai mult*/
+    
+}
+#div2{
+  /* display: none; 
+  face divul 2 sa dispara ,
+   si muta divul 3 in locul la divul 2   */
+  visibility: hidden;
+  /*visibility: hidden;- face sa dispara continutul 
+  doar ca ramane spatiu liber in locul lui*/
+}

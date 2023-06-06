@@ -1,0 +1,18 @@
+div{
+    width: 100%;/* sa cuprinda tot ecranul*/
+    max-width: 400px;/* va ocuma maximul de 400*/
+    height: auto;/*inaltimea sa fie auto*/
+
+    margin: 25px;/*distanta dintre divuri*/
+    border: 5px red solid;/*grosimea, culoarea, modelul*/
+    padding: 10px 20px 15px 5px;/*distanta dintre text si border*/
+    
+    float: left;/*sa fie unul langa altul*/
+    text-align: center;/*textul sa fie pe centru*/
+    background-color:rgba(10, 71, 71, 0.6);/*culoarea fundalului...
+    daca punem ultima valoare 0 dispare culoarea, daca modificam 0.3 sau alta
+    valoare indica gradul de opacitate*/
+    color: blueviolet;/*culoarea textului*/
+
+
+}

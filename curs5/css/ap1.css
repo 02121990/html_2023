@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;/*aranjarea elementelor de tip grid*/
+    grid-template-columns: auto auto auto auto auto;/*gridul bazat 
+    pe  4 coloane auro*/
+    grid-gap: 10px;/*distanta dintre divuri*/
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {/*se aplica pentru toti copii lui div 
+    din cadrul lui .grid-container*/
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-area: 1 / 1 / span 2 / span 2;
+    /*grid-area:=imbina celulele
+     item 1 (indica primul rand 0,
+     al doilea 1 indica valoarea numarul 
+     span 2= ocupa 2 randuri,
+     ultimul span ocupa 2 coloane*/
+  }

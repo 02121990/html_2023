@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css prioritati</title>
+    <link rel="stylesheet" href="../curs3/css/style.css">
+    <style>
+        p{
+            color:green!important; /*daca adaugam !important , 
+            asta este decizia finala , peste tot apare cu verde , devine prioritar,
+            dar daca avem de 2 ori not importan(! inmpotant) atunci se anuleaza
+             */
+        }
+    </style>
+</head>
+<body>
+    <p style="color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Enim expedita sunt quo praesentium dolores tempora quae ad cupiditate eius in.
+         Eveniet eum necessitatibus dicta ullam ratione libero, voluptatum explicabo
+          mollitia!
+    </p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ut voluptas necessitatibus sed magnam tenetur commodi odio, dolor doloribus nemo. Quos id sapiente consectetur odit, ratione quaerat obcaecati cupiditate eos?</p>
+
+<!--inline are prioritate mare, 
+    indern si extern depinde de cod,
+     browser-ul ultimul-->
+</body>
+</html>

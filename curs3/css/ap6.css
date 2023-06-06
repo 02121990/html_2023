@@ -1,0 +1,43 @@
+p{
+    color: green;
+}
+#primulp{
+    color: red;
+    
+    /*  id-iul se scrie cu # ...pe bza la id(primulp) se face 
+    modificarea la primul paragraf
+    la id= primul trebuie sa fie cu litere, 
+    nu pot trece spatii si nici litere mari. 
+    De respectat conditia ca id-ul sa fie unic*/
+}
+.pblue{
+    color: blue;
+    /*class se scrie cu .
+     in exemplu selecteaza toate clasele pblue 
+     class-ele pot fi mai multe*/
+}
+.pfont{
+    font-size: 35px;
+    /*modificare pe pfont-urile din 
+    class mentionate
+    ULTIMA PROPRIETATE CITITA ARE PRIORITATE
+    DENUMIRILE DE LA ID SI CLASS LE DAM NOI
+    DACA AVEM PE UN PARAGRAF SI ID SI CLASS , SE CITESTE ID-UL ESTE MAI SPECIFIC */
+}
+div p{
+    color: chocolate;
+    /*toate paragrafele din div
+     vor avea culoarea asta*/
+}
+#iddiv #pdiv{
+    color: aquamarine;
+    /*doar acestui id paragraf din div se va aplica*/
+}
+.classdiv .pclassdiv{
+    color: blueviolet;
+}
+.classdiv > .pclassdiv{
+    color: blue;
+    /* doar primul paragraf din div il
+     modifica de culoare albastru*/
+}

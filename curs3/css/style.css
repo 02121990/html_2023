@@ -1,0 +1,20 @@
+p{
+    color: red;/* culoarea la scris din paragraf*/
+
+}
+p:hover{
+    color: blue;/* (hover-schimbarea culorii la scris)cand ma duc cu mouse-ul peste
+     un paragraf ii schimba culoarea in albastru*/
+}
+
+h1{
+    font-size: 12px; /*dimensiune scris*/
+}
+#demo{
+    color: aqua;/* ca sa facem al 2-le h1 
+    sa aiba culoarea la scris aqua*/
+}
+#demo:hover{
+    color: red; /*cand ma duc cu maose-ul pe h1 
+    doar pe scrisul cu demo cuoarea va deveni rosie*/
+}

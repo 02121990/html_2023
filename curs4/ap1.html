@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 2px red solid;
+            border-collapse:collapse;/*uneste celulele*/
+        }
+
+        
+        table tr td, table tr th{
+            border: 1px blue solid;
+            padding: 10px;
+            
+        }
+        table tr:nth-child(2n){
+            color: brown;
+            background-color: burlywood;
+            /* tr:nth-child(2n)=elementele de pe randurile pare 
+            sunt scrise cu alte culoare sau ce vrem noi sa adaugam la modificarea lor
+             (2n)=numere pere*/
+        }
+        table tr:nth-child(2n+1){
+            background-color: rgb(165, 73, 42);
+            color: #ffffff;
+            /* tr:nth-child(2n+1)=modificari la nr impare
+            (2n+1)=nr.impare */
+        }
+        table tr:first-child{
+            background-color: aqua;
+            color: red;
+            /*tr:first-child = capul de tabel sa fie de alta culoare, prima linie*/
+         }
+         table tr:hover {
+            background-color: blue;
+            color: green;
+            /*tr:hover= cand vin cu mouse-ul sa se modifice in albastru randul*/
+         }
+    </style>
+</head>
+<body>
+     <h1>Primul meu tabel</h1><!--avem un tabel cu 5 randuri a cate 4 coloane
+    ...exemplu:  table>tr>*3>th>td*4   -->
+    <table>
+        <tr><!--cate randuri sa aiba tabelul....avem un rand cu 4 coloane-->
+            <th>Nume</th><!-- Coloana......-->
+            <th>Prenume</th>
+            <th>Telefon</th>
+            <th>Email</th   >
+        </tr>
+        <tr>
+            <td>Popescu</td>
+            <td>Ion</td>
+            <td>073433333</td>
+            <td>popescu@demo.ro</td>
+        </tr>
+        <tr>
+            <td>Ionescu</td>
+            <td>Dan</td>
+            <td>078895555</td>
+            <td>dan.ionescu@test.com</td>
+        </tr>
+        <tr>
+            <td>Stan</td>
+            <td>Ana</td>
+            <td>0745654444</td>
+            <td>ana.stan@test.com</td>
+        </tr>
+        <tr>
+            <td>Dobre</td>
+            <td>Ivan</td>
+            <td>077654332</td>
+            <td>ivan@test.com</td>
+        </tr>
+    </table>
+</body>
+</html>
